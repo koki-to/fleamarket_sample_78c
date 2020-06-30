@@ -31,10 +31,10 @@
 |introduction|text|null: false|
 |price|integer|null: false|
 |item_condition|references|null: false, foreign_key: true|
-|postage_payer|references|null: false, foreign_key: true|
+|postage_payer|integer|null: false|
 |prefecture_code|integer|null: false|
-|preparation_day|references|null: false, foreign_key: true|
-|postage_type|references|null: false, foreign_key: true|
+|preparation_day|integer|null: false|
+|postage_type|integer|null: false|
 |category|references|null: false, foreign_key: true|
 |trading_status|enum|null: false|
 |seller|references|null: false, foreign_key: true|
