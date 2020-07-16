@@ -9,14 +9,14 @@
         .swiper-container
           .swiper-wrapper
             .swiper-slider
-              .slide-img= image_tag @item_images.url.url,alt: 'test'
-            .swiper-slider
-              .slide-img= image_tag @item_images.url.url,alt: 'test'
-            .swiper-slider
-              .slide-img= image_tag @item_images.url.url,alt: 'test'
+              -# .slide-img=image_tag(@item.item_images[0].item_images.url.url),alt: 'test'
+            -# .swiper-slider
+            -#   .slide-img=image_tag(@item.item_images[0].item_images.url),alt: 'test'
+            -# .swiper-slider
+            -#   .slide-img=image_tag(@item.item_images[0].item_images.url),alt: 'test'
           .swiper-pagination
           .swiper-button-prev
-          .swiper-button-next              
+          .swiper-button-next
         .MainContainer__item__table
           %table.TableBody
             %tr
