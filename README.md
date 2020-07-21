@@ -173,3 +173,5 @@ jQuery
 
 ### Association
 - belongs_to :item, optional: true
+
+# test
